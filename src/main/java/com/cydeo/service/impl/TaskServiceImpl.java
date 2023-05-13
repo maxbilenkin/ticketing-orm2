@@ -145,5 +145,4 @@ public class TaskServiceImpl implements TaskService {
         return list.stream().map(taskMapper::convertToDTO).collect(Collectors.toList());
     }
 
-
 }
